@@ -1,71 +1,15 @@
+<?php include "config.php";?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="shortcut icon" href="./images/favicon.ico" />
-  <title>PATAGONIA CAMELOT</title>
-  <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
-  <link href="./vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
-  <link href="./css/full-slider.css" rel="stylesheet">
-  <!-- Core CSS file -->
-  <link rel="stylesheet" href="./vendor/photoswipe/photoswipe.css">
-
-  <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
-     In the folder of skin CSS file there are also:
-     - .png and .svg icons sprite,
-     - preloader.gif (for browsers that do not support CSS animations) -->
-  <link rel="stylesheet" href="./vendor/photoswipe/default-skin/default-skin.css">
-
-
+<?php include './includes/header.php';  ?>
 </head>
 
 <body ng-app="myApp">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img hidden width="90px" src="./images/logo_marca_agua.png">
-        <img src="./images/logo_80.png"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-              aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto pl-3">
-          <li class="nav-item">
-            <a class="nav-link " href="./index.html">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./ubicacion.html">Ubicacion</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./servicios.html">Servicios</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="dropdown05" data-toggle="dropdown" aria-haspopup="true"
-               aria-expanded="false">Galleries</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown05">
-              <a class="dropdown-item" href="./gallery_cabañas.html">Cabañas</a>
-              <a class="dropdown-item" href="./gallery_clubhouse.html">Club House</a>
-              <a class="dropdown-item" href="./gallery_entorno.html">Entorno</a>
-            </div>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
+  <?php include './includes/navbar.php';  ?>
   <header>
     &nbsp;<br><br>
   </header>
