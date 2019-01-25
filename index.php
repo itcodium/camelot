@@ -1,6 +1,50 @@
-<?php include "config.php";?>
 
-
+<?php
+		 
+ 
+	  session_start();
+	 
+	  //Define Language file paths
+	  define("LANG_ES_PATH", $_SERVER['DOCUMENT_ROOT'] . 'camelot/includes/lang/es/');
+	  define("LANG_EN_PATH", $_SERVER['DOCUMENT_ROOT'] . 'camelot/includes/lang/en/');
+	  
+	  if (isset($_GET['lang'])) {
+		 
+		// GET request found
+	 
+		if ($_GET['lang'] == 'es') {
+		   
+		  // asked for the language 'es' so include the 'de.php' file
+		  include LANG_ES_PATH . 'es.php';
+		  $_SESSION['lang'] = 'es';
+		} else {
+	 
+		  // if not asked for 'es', include 'en.php' as default
+		  include LANG_EN_PATH . '/en.php';
+		  $_SESSION['lang'] = 'en';
+		}
+	  } else if (isset($_SESSION['lang'])) {
+	 
+		//SESSION variable found
+	 
+		if ($_SESSION['lang'] == 'es') {
+	 
+		  // language already set to 'es', so include 'de.php'
+		  include LANG_ES_PATH . '/es.php';
+		} else {
+	 
+		  // SESSION variable not set to 'es', so include 'en.php' by default
+		  include LANG_EN_PATH . '/en.php';
+		}
+	  } else {
+		 
+		// SESSION varibale not set, so set it to 'en' and include 'en.php' by default
+		include LANG_EN_PATH . 'en.php';
+		$_SESSION['lang'] = 'en';
+	  }
+	  
+	?>
+	
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +53,8 @@
 </head>
 <body>
   <!-- Navigation -->
-  <?php include './includes/navbar.php';  ?>
+  
+  
   <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">

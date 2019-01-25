@@ -1,4 +1,5 @@
- <?php include "config.php";?>
+<?php include "config_app.php"; ?>
+  
 
  <head>
   <meta charset="utf-8">
@@ -7,7 +8,7 @@
   <meta name="author" content="">
   <link rel="shortcut icon" href="<?php $host ?>images/favicon.ico" />
 
-  <title><?php echo $web_title ?> </title>
+  <title><?php echo  $LANG['title']; ?> </title>
   <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
   <link href="<?php echo $host ?>vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
   <link href="<?php echo $host ?>css/full-slider.css" rel="stylesheet">
