@@ -8,22 +8,22 @@
         </div>
         <div class="col-sm-4 text-center">
           <address>
-            <h3><?php echo $consultas_reservas?></h3>
-            <br><?php echo $camelot_direccion?>
-            <br><?php echo $villa_angostura?>
+            <h3><?php echo $LANG['menu_consultas_reservas'] ?></h3>
+            <br><?php echo $LANG['camelot_direccion']?>
+            <br><?php echo $LANG['villa_angostura'] ?>
             <br>
           </address>
           <address>
-            <span title="Phone"><?php echo $camelot_telefono_txt?> </span>
-            <?php echo $camelot_tel?>
+            <span title="Phone"><?php echo $LANG['camelot_telefono_txt'] ?> </span>
+            <?php echo $LANG['camelot_tel']?>
             <br>
-            <a><?php echo $camelot_email?></a>
+            <a><?php echo $LANG['camelot_email'] ?></a>
           </address>
         </div>
 
         <div class="col-sm-4 text-center">
           <address>
-            <h3>Data Fiscal</h3> <br>
+            <h3><?php echo $LANG['camelot_data_fiscal']?></h3> <br>
             <img src="<?php echo $host ?>images/qrcode.jpg">
           </address>
         </div>

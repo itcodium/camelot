@@ -12,27 +12,27 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto pl-3">
           <li class="nav-item">
-            <a class="nav-link " href="<?php echo $host ?>index.php"><?php echo $menu_home ?>
+            <a class="nav-link " href="<?php echo $host ?>index.php"><?php echo $LANG['menu_home'] ?>
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo $host ?>ubicacion.php"><?php echo $menu_ubicacion ?></a>
+            <a class="nav-link" href="<?php echo $host ?>ubicacion.php"><?php echo $LANG['menu_ubicacion'] ?></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo $host ?>servicios.php"><?php echo $menu_servicios ?></a>
+            <a class="nav-link" href="<?php echo $host ?>servicios.php"><?php echo $LANG['menu_servicios'] ?></a>
           </li>
           <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" id="dropdown05" data-toggle="dropdown" aria-haspopup="true"
-               aria-expanded="false"><?php echo $menu_galleries ?></a>
+               aria-expanded="false"><?php echo $LANG['menu_galleries'] ?></a>
             <div class="dropdown-menu" aria-labelledby="dropdown05">
-              <a class="dropdown-item" href="<?php echo $host ?>gallery_cabañas.php"><?php echo $menu_cabañas ?></a>
-              <a class="dropdown-item" href="<?php echo $host ?>gallery_clubhouse.php"><?php echo $menu_club_house ?></a>
-              <a class="dropdown-item" href="<?php echo $host ?>gallery_entorno.php"><?php echo $menu_entorno ?></a>
+              <a class="dropdown-item" href="<?php echo $host ?>gallery_cabañas.php"><?php echo $LANG['menu_cabañas'] ?></a>
+              <a class="dropdown-item" href="<?php echo $host ?>gallery_clubhouse.php"><?php echo $LANG['menu_club_house'] ?></a>
+              <a class="dropdown-item" href="<?php echo $host ?>gallery_entorno.php"><?php echo $LANG['menu_entorno'] ?></a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo $host ?>contact.php"><?php echo $menu_consultas_reservas ?></a>
+            <a class="nav-link" href="<?php echo $host ?>contact.php"><?php echo $LANG['menu_consultas_reservas'] ?></a>
           </li>
         </ul>
       </div>

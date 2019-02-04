@@ -1,5 +1,33 @@
+
+<?php
+	  session_start();
+	  //Define Language file paths
+	  define("LANG_ES_PATH", $_SERVER['DOCUMENT_ROOT'] . '/camelot/includes/lang/es/');
+	  define("LANG_EN_PATH", $_SERVER['DOCUMENT_ROOT'] . '/camelot/includes/lang/en/');
+
+	  if (isset($_GET['lang'])) {
+      if ($_GET['lang'] == 'es') {
+        include LANG_ES_PATH . 'es.php';
+        $_SESSION['lang'] = 'es';
+      } else {
+        include LANG_EN_PATH . '/en.php';
+        $_SESSION['lang'] = 'en';
+      }
+	  } else if (isset($_SESSION['lang'])) {
+            if ($_SESSION['lang'] == 'es') {
+              include LANG_ES_PATH . 'es.php';
+            }else {
+              include LANG_EN_PATH . 'en.php';
+            }
+          } else {
+            include LANG_EN_PATH . 'en.php';
+            $_SESSION['lang'] = 'en';
+          }
+
+?>
+
 <?php include "config_app.php"; ?>
-  
+
 
  <head>
   <meta charset="utf-8">

@@ -116,44 +116,8 @@
 
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark white">
-    <div class="container">
-      <div class="row text-white">
-        <div class="col-sm-4 text-center">
-          <img src="./images/ribbon sp.png">
-          <img src="./images/logo_marca_agua.png">
-        </div>
-        <div class="col-sm-4 text-center">
-          <address>
-            <h3> Consultas y Reservas</h3>
-            <br>Camino del cóndor 1055
-            <br>Villa La Angostura
-            <br>
-          </address>
-          <address>
-            <span title="Phone">Tel:</span>
-            (+5411) 4921-5900
-            <br>
-            <a>info@patagoniacamelot.com</a>
-          </address>
-        </div>
+  <?php include './includes/footer.php';  ?>
 
-        <div class="col-sm-4 text-center">
-          <address>
-            <h3>Data Fiscal</h3> <br>
-            <img src="./images/qrcode.jpg">
-          </address>
-        </div>
-
-      </div>
-      <p class="m-0 text-center text-white">@ 2018 Patagonia Camelot-Powered By <br>
-        <a target="_blank" class="footLink" rel="nofollow" href="https://e-zero.com.ar/"> Copyright &copy;
-          e-zero.com.ar</a></p>
-
-
-    </div>
-    <!-- /.container -->
-  </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="./vendor/jquery/jquery.min.js"></script>
