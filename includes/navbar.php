@@ -3,8 +3,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img hidden width="90px" src="<?php echo $host ?>/images/logo_marca_agua.png">
-        <img src="./images/logo_80.png"></a>
+        <img height="70px" src="<?php echo $host ?>/images/logo_marca_agua.png">
+        <img hidden src="./images/logo_marca_agua.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
               aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

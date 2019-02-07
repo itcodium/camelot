@@ -14,29 +14,17 @@
     &nbsp;<br><br>
   </header>
 
-
-
-
-
-
   <!-- Page Content -->
   <section class="py-5">
     <div class="container">
-      <h1>Consultas y Reservas</h1>
-      <p>HACE TU RESERVA Y DISFRUTA DEL MEJOR LUGAR EN VILLA LA
-        ANGOSTURA.</p>
-
-
-
+      <h1><?php echo $LANG['menu_consultas_reservas']?></h1>
+      <p><?php echo $LANG['reservas_titulo']?></p>
       <div class="row">
-
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5">
           <form id="contact-form" name="contact-form" action="mail.php" method="POST" onsubmit="return validateForm()">
-
             <!--Grid row-->
             <div class="row">
-
               <!--Grid column-->
               <div class="col-md-6">
                 <div class="md-form">
@@ -111,21 +99,13 @@
     </div>
   </section>
 
-
-
-
-
   <!-- Footer -->
   <?php include './includes/footer.php';  ?>
-
-
   <!-- Bootstrap core JavaScript -->
   <script src="./vendor/jquery/jquery.min.js"></script>
   <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <script type="text/javascript" src="./main.js"></script>
-
-
   <script>
 
     function validateForm() {

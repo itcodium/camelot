@@ -36,6 +36,53 @@ $LANG['home_welcome_desc_2']="A solo 5 Km del Centro de Villa la Angostura. Rode
 $LANG['home_welcome_desc_3']="Con capacidad para 2, 4 y 6 personas. Hace tu reserva y disfrutade Villa la Angostura.";
 
 $LANG['home_vla_best_place']="EN CUALQUIER ESTACION, UN LUGAR INCREIBLE EN LO MEJOR DE VILLA LA ANGOSTURA";
+/* Services */
+
+$LANG['SERVICIO_DE_MUCAMA_Y_DESAYUNO']="SERVICIO DE MUCAMA Y DESAYUNO";
+$LANG['TV_SATELITAL']="TV SATELITAL";
+$LANG['EQUIPO_DE_DVD']="EQUIPO DE DVD";
+$LANG['EQUIPO_CON_RADIO_Y_CD']="EQUIPO CON RADIO Y CD";
+$LANG['MICROONDAS']="MICROONDAS";
+$LANG['HELADERA_CON_FREEZER']="HELADERA CON FREEZER";
+$LANG['CAJA_DE_SEGURIDAD']="CAJA DE SEGURIDAD";
+$LANG['CAMA_CON_SOMMIER']="CAMA CON SOMMIER";
+$LANG['ROPA_DE_CAMA_Y_BAÑO']="ROPA DE CAMA Y BAÑO";
+$LANG['COMPLETO_EQUIPO_DE_VAJILLA_Y_COCINA']="COMPLETO EQUIPO DE VAJILLA Y COCINA";
+$LANG['PARRILLA_INDIVIDUAL']="PARRILLA INDIVIDUAL";
+$LANG['EXTRACTOR_DE_HUMO']="EXTRACTOR DE HUMO";
+$LANG['PISCINA_CLIMATIZADA_EXTERIOR']="PISCINA CLIMATIZADA EXTERIOR";
+$LANG['Wi_Fi']="Wi Fi";
+$LANG['SERVICIO_DE_BAR']="SERVICIO DE BAR";
+$LANG['BABY_SITTER']="BABY SITTER";
+$LANG['ALQUILER_DE_LANCHA_Y_GUIA_DE_PESCA_CON_MOSCA']="ALQUILER DE LANCHA Y GUIA DE PESCA CON MOSCA";
+$LANG['SERVICIOS_DE_AYUDANTES_PARA_AMARRADERO']="SERVICIOS DE AYUDANTES PARA AMARRADERO";
+
+$LANG['Nuestras_cabañas_están_totalmente']="Nuestras cabañas están totalmente equipadas, para asegurarte la mejor y mas placentera estadía.";
+$LANG['Ofrecemos_servicios_adicionales']="Ofrecemos servicios adicionales en temporada alta";
+$LANG['Servicios_bar']="Servicios de bar";
+$LANG['Baby_Sitter']="Baby Sitter";
+$LANG['Alquiler_lanchas']="Alquiler de lanchas";
+$LANG['Guía_pesca_mosca']="Guía de pesca con mosca";
+$LANG['Servicios_ayudantes']="Servicios de ayudantes de paso al lago. (Pago por amarra y/o subida y bajada de lancha.)";
+
+
+$LANG['ubicacion_descripcion']="Villa La Angostura es una pequeña villa de montaña que se encuentra al sur de la pcia. de neuquen. a 70 km del aeropuerto de bariloche y a 60 km de la aduana de chile. los lagos nahuel huapi y correntoso, vierten sus aguas en esta zona, haciendo de sus playas un lugar de recreación por excelencia. se encuentra a 1.614 km de la ciudad de buenos aires. patagonia camelot se encuentra a solo 5 km. del centro de villa la angostura.";
+$LANG['ubicacion_destancias']="DISTANCIAS DESDE CIUDADES HASTA PATAGONIA CAMELOT";
+$LANG['reservas_titulo']="HACE TU RESERVA Y DISFRUTA DEL MEJOR LUGAR EN VILLA LA ANGOSTURA."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ?>

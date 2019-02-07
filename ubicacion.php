@@ -19,11 +19,9 @@
     <div class="container">
       <h1>VILLA LA ANGOSTURA</h1>
       <h3>RUTA 231 KM. 65,5 NEUQUEN / ARGENTINA</h3>
-      <p>Villa La Angostura es una pequeña villa de montaña que se encuentra al sur de la pcia. de neuquen. a 70 km del
-        aeropuerto de bariloche y a 60 km de la aduana de chile. los lagos nahuel huapi y correntoso, vierten sus aguas
-        en esta zona, haciendo de sus playas un lugar de recreación por excelencia. se encuentra a 1.614 km de la
-        ciudad de buenos aires. patagonia camelot se encuentra a solo 5 km. del centro de villa la angostura. </p>
-      <h3>DISTANCIAS DESDE CIUDADES HASTA PATAGONIA CAMELOT</h3>
+      <p><?php echo $LANG['ubicacion_descripcion'] ?></p>
+      <h3><?php echo $LANG['ubicacion_destancias'] ?></h3>
+
       <div class="row">
         <div class="col-sm-6">
           <ul class="list-group">
