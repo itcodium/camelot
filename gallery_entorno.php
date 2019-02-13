@@ -4,42 +4,28 @@
 
 <head>
 <?php include './includes/header.php';  ?>
-
 </head>
-
 <body ng-app="myApp">
-
   <!-- Navigation -->
   <?php include './includes/navbar.php';  ?>
   <header>
     &nbsp;<br><br>
   </header>
-
-
-
-
-
-
   <!-- Page Content -->
   <section class="py-5">
     <div class="container mt-4">
-      <h1>EL ENTORNO QUE RODEA A PATAGONIA CAMELOT ES IMPONENTE.</h1>
+      <h1><?php echo $LANG['Gallery_entorno_titulo'] ?>:</h1>
     </div>
     <br>
-
-
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-sm-6">
-          <p>Además del imponente paisaje PATAGONIA CAMELOT cuenta con cálidos y confortables ambientes, todos con
-            vista al lago, bosques y montañas.</p>
+          <p><?php echo $LANG['Gallery_entorno_descripcion1'] ?></p>
 
         </div>
         <div class="col-lg-6 col-sm-6">
-          <p>El complejo cuenta con un hermoso parque de juegos al aire libre para disfrutar a pleno de tu estadía</p>
-
+          <p><?php echo $LANG['Gallery_entorno_descripcion2'] ?></p>
         </div>
-
 
         <div class="container mt-5">
 
@@ -49,7 +35,7 @@
                 <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/01.Vista externa Cabañas Camelot.jpg"
                      itemprop="thumbnail" alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Vista externa Cabañas Camelot</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Patagonia_Camelot_landscape'] ?></figcaption>
             </figure>
 
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -57,71 +43,70 @@
                 <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/02.Vista externa Cabañas Camelot.jpg"
                      itemprop="thumbnail" alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Vista externa Cabañas Camelot</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Patagonia_Camelot_landscape'] ?></figcaption>
             </figure>
-
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/entorno/03.Piscina climatizada externa.jpg" itemprop="contentUrl" data-size="964x1024">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/03.Piscina climatizada externa.jpg"
                      itemprop="thumbnail" alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Piscina climatizada externa</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Piscina_climatizada_externa'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/entorno/04.entorno.jpg" itemprop="contentUrl" data-size="964x1024">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/04.entorno.jpg" itemprop="thumbnail"
                      alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Entorno</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Patio_juegos_exterior'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/entorno/05.Vista externa Cabañas Camelot.jpg" itemprop="contentUrl" data-size="964x1024">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/05.Vista externa Cabañas Camelot.jpg"
                      itemprop="thumbnail" alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Vista externa Cabañas Camelot</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Patagonia_Camelot_landscape'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/entorno/06.Vista externa Cabañas Camelot.jpg" itemprop="contentUrl" data-size="964x1024">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/06.Vista externa Cabañas Camelot.jpg"
                      itemprop="thumbnail" alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Vista externa Cabañas Camelot</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Patagonia_Camelot_landscape'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/entorno/07.Vista externa Cabaña Arturo.jpg" itemprop="contentUrl" data-size="964x1024">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/07.Vista externa Cabaña Arturo.jpg"
                      itemprop="thumbnail" alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">07.Vista externa Cabaña Arturo</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Patagonia_arturo'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/entorno/08.Vista externa Cabañas Camelot.jpg" itemprop="contentUrl" data-size="964x1024">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/08.Vista externa Cabañas Camelot.jpg"
                      itemprop="thumbnail" alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Vista externa Cabañas Camelot</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Patagonia_Camelot'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/entorno/09.Vista externa Cabañas Camelot.jpg" itemprop="contentUrl" data-size="964x1024">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/09.Vista externa Cabañas Camelot.jpg"
                      itemprop="thumbnail" alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Vista externa Cabañas Camelot</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Patagonia_Camelot'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/entorno/10.Vista externa Cabaña Ginebra.jpg" itemprop="contentUrl" data-size="964x1024">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/10.Vista externa Cabaña Ginebra.jpg"
                      itemprop="thumbnail" alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Vista externa Cabaña Ginebra</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Patagonia_Ginebra'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/entorno/11.Vista externa Cabañas.jpg" itemprop="contentUrl" data-size="964x1024">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/11.Vista externa Cabañas.jpg"
                      itemprop="thumbnail" alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Vista externa Cabañas</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Patagonia_Camelot_landscape'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/entorno/12.Vista externa desde las cabañas.jpg" itemprop="contentUrl"
@@ -129,14 +114,14 @@
                 <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/12.Vista externa desde las cabañas.jpg"
                      itemprop="thumbnail" alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Vista externa desde las cabañas</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Patagonia_Camelot_landscape'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/entorno/13.Paisaje que rodea las cabañas.jpg" itemprop="contentUrl" data-size="964x1024">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/13.Paisaje que rodea las cabañas.jpg"
                      itemprop="thumbnail" alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Paisaje que rodea las cabañas</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Patagonia_Camelot_landscape'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/entorno/14.Invierno - Vista externa Cabañas.jpg" itemprop="contentUrl"
@@ -144,7 +129,7 @@
                 <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/14.Invierno - Vista externa Cabañas.jpg"
                      itemprop="thumbnail" alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Invierno - Vista externa Cabañas</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Invierno_Vista_externa_Cabañas'] ?> </figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/entorno/15.Invierno - Vista externa Cabañas.jpg" itemprop="contentUrl"
@@ -152,15 +137,18 @@
                 <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/15.Invierno - Vista externa Cabañas.jpg"
                      itemprop="thumbnail" alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Invierno - Vista externa Cabañas</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Invierno_Vista_externa_Cabañas'] ?></figcaption>
             </figure>
+
+
+
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/entorno/16.Invierno - Vista externa Cabañas.jpg" itemprop="contentUrl"
                  data-size="964x1024">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/16.Invierno - Vista externa Cabañas.jpg"
                      itemprop="thumbnail" alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Invierno - Vista externa Cabañas</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Invierno_Vista_externa_Cabañas'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/entorno/17.Invierno - Vista externa Cabañas.jpg" itemprop="contentUrl"
@@ -168,14 +156,14 @@
                 <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/17.Invierno - Vista externa Cabañas.jpg"
                      itemprop="thumbnail" alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Invierno - Vista externa Cabañas</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Invierno_Vista_externa_Cabañas'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/entorno/18.Vista externa Cabañas Camelot.jpg" itemprop="contentUrl" data-size="964x1024">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/18.Vista externa Cabañas Camelot.jpg"
                      itemprop="thumbnail" alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Vista externa Cabañas Camelot</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Invierno_Vista_externa_Cabañas'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/entorno/19.Invierno - Vista externa Cabañas.jpg" itemprop="contentUrl"
@@ -183,7 +171,7 @@
                 <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/19.Invierno - Vista externa Cabañas.jpg"
                      itemprop="thumbnail" alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Invierno - Vista externa Cabañas</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Invierno_Vista_externa_Cabañas'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/entorno/20.Invierno - Vista externa Cabañas.jpg" itemprop="contentUrl"
@@ -191,7 +179,7 @@
                 <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/20.Invierno - Vista externa Cabañas.jpg"
                      itemprop="thumbnail" alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Invierno - Vista externa Cabañas</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Invierno_Vista_externa_Cabañas'] ?></figcaption>
             </figure>
 
 

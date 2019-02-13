@@ -50,7 +50,8 @@
                 <img class="img-fluid img-thumbnail" src="./images/galleries/cabañas/01.Vista del Living.jpg" itemprop="thumbnail"
                      alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Vista del Living 1</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Vista_Living'] ?> 1</figcaption>
+
             </figure>
 
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -58,7 +59,7 @@
                 <img class="img-fluid img-thumbnail" src="./images/galleries/cabañas/02.Vista del Living.jpg" itemprop="thumbnail"
                      alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Vista del Living 2</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Vista_Living'] ?> 2</figcaption>
             </figure>
 
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -66,14 +67,14 @@
                 <img class="img-fluid img-thumbnail" src="./images/galleries/cabañas/03.Vista del Living.jpg" itemprop="thumbnail"
                      alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Vista del Living 3</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Vista_Living'] ?> 3</figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/cabañas/04.Vista del Living.jpg" itemprop="contentUrl" data-size="964x1024">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/cabañas/04.Vista del Living.jpg" itemprop="thumbnail"
                      alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Vista del Living 4</figcaption>
+              <figcaption itemprop="caption description"> <?php echo $LANG['Vista_Living'] ?> 4</figcaption>
             </figure>
 
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -81,14 +82,14 @@
                 <img class="img-fluid img-thumbnail" src="./images/galleries/cabañas/05.Vista del Living.jpg" itemprop="thumbnail"
                      alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Vista del Living 5</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Vista_Living'] ?> 5</figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/cabañas/06.Vista del  Living.jpg" itemprop="contentUrl" data-size="964x1024">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/cabañas/06.Vista del  Living.jpg" itemprop="thumbnail"
                      alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Vista del Living 6</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Vista_Living'] ?> 6</figcaption>
             </figure>
 
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -96,7 +97,7 @@
                 <img class="img-fluid img-thumbnail" src="./images/galleries/cabañas/07.Vista del  Living.jpg" itemprop="thumbnail"
                      alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Vista del Living 7</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Vista_Living'] ?> 7</figcaption>
             </figure>
 
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -104,28 +105,30 @@
                 <img class="img-fluid img-thumbnail" src="./images/galleries/cabañas/08.Vista cocina - Equipamiento.jpg"
                      itemprop="thumbnail" alt="" />
               </a>
-              <figcaption itemprop="caption description">Vista cocina - Equipamiento.jpg</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Vista_cocina'] ?> </figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/cabañas/09.Vista cocina - Desayunador.jpg" itemprop="contentUrl" data-size="964x1024">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/cabañas/09.Vista cocina - Desayunador.jpg"
                      itemprop="thumbnail" alt="" />
               </a>
-              <figcaption itemprop="caption description">Vista cocina - Desayunador</figcaption>
+
+              <figcaption itemprop="caption description"><?php echo $LANG['Vista_cocina'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/cabañas/10.Vista cocina - Living.jpg" itemprop="contentUrl" data-size="964x1024">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/cabañas/10.Vista cocina - Living.jpg"
                      itemprop="thumbnail" alt="" />
               </a>
-              <figcaption itemprop="caption description">Vista cocina - Living</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Vista_cocina10'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/cabañas/11.Dormitorio Principal.jpg" itemprop="contentUrl" data-size="1024x768">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/cabañas/11.Dormitorio Principal.jpg"
                      itemprop="thumbnail" alt="" />
               </a>
-              <figcaption itemprop="caption description" style="text-align:center">Dormitorio Principal</figcaption>
+              <figcaption itemprop="caption description" style="text-align:center">
+                <?php echo $LANG['Dormitorio_Principal'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/cabañas/12.Dormitorio Principal - Placard.jpg" itemprop="contentUrl"
@@ -133,21 +136,22 @@
                 <img class="img-fluid img-thumbnail" src="./images/galleries/cabañas/12.Dormitorio Principal - Placard.jpg"
                      itemprop="thumbnail" alt="" />
               </a>
-              <figcaption itemprop="caption description" style="text-align:center">Dormitorio Principal - Placard</figcaption>
+              <figcaption itemprop="caption description" style="text-align:center"><?php echo $LANG['Dormitorio_Principal'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/cabañas/13.Habitación doble.jpg" itemprop="contentUrl" data-size="1024x768">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/cabañas/13.Habitación doble.jpg" itemprop="thumbnail"
                      alt="" />
               </a>
-              <figcaption itemprop="caption description" style="text-align:center">Habitación doble</figcaption>
+
+              <figcaption itemprop="caption description" style="text-align:center"><?php echo $LANG['Habitación_doble'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/cabañas/14.Habitación doble.jpg" itemprop="contentUrl" data-size="1024x768">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/cabañas/14.Habitación doble.jpg" itemprop="thumbnail"
                      alt="" />
               </a>
-              <figcaption itemprop="caption description" style="text-align:center">Habitación doble</figcaption>
+              <figcaption itemprop="caption description" style="text-align:center"><?php echo $LANG['Habitación_doble'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/cabañas/15.Toilette.jpg" itemprop="contentUrl" data-size="1024x768">
@@ -161,21 +165,22 @@
                 <img class="img-fluid img-thumbnail" src="./images/galleries/cabañas/16.Hidromasaje.jpg" itemprop="thumbnail"
                      alt="" />
               </a>
-              <figcaption itemprop="caption description" style="text-align:center">Hidromasaje</figcaption>
+
+              <figcaption itemprop="caption description" style="text-align:center"><?php echo $LANG['Hidromasaje'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/cabañas/17.Hidromasaje.jpg" itemprop="contentUrl" data-size="1024x768">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/cabañas/17.Hidromasaje.jpg" itemprop="thumbnail"
                      alt="" />
               </a>
-              <figcaption itemprop="caption description" style="text-align:center">Hidromasaje</figcaption>
+              <figcaption itemprop="caption description" style="text-align:center"><?php echo $LANG['Hidromasaje'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/cabañas/18.Hidromasaje - Sanitarios.jpg" itemprop="contentUrl" data-size="1024x768">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/cabañas/18.Hidromasaje - Sanitarios.jpg"
                      itemprop="thumbnail" alt="" />
               </a>
-              <figcaption itemprop="caption description" style="text-align:center">Hidromasaje - Sanitarios</figcaption>
+              <figcaption itemprop="caption description" style="text-align:center"><?php echo $LANG['Hidromasaje_Sanitarios'] ?> </figcaption>
             </figure>
 
           </div>

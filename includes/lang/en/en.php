@@ -73,11 +73,53 @@ $LANG['Servicios_ayudantes']="Our resort has transportation service to the lake,
 
 $LANG['ubicacion_descripcion']="VILLA LA ANGOSTURA, IS A SMALL MOUNTAING VILLAGE IN SOUTH OR NEUQUEN PROVINCE, ONLY 70 KM FROM BARILOCHE AIRPORT AND 60 KM AWAY FROM THE FRONTIER WITH CHILE. NAHUEL HUAPI AND CORRENTOSO LAKES POUR THEIR WATERS OVER THIS AREA MAKING ITS BEACHES AN EXCELLENT RECREATION PLACE.";
 $LANG['ubicacion_destancias']="DISTANCE FROM DIFFERENT CITIES TO PATAGONIA CAMELOT (KM)";
-$LANG['reservas_titulo']="MAKE YOUR RESERVATION TO ENJOY THE BEST STAY IN VILLA LA ANGOSTURA"
+$LANG['reservas_titulo']="MAKE YOUR RESERVATION TO ENJOY THE BEST STAY IN VILLA LA ANGOSTURA";
 
 
+/* Galeria  Cabañas */
 
 
+$LANG['Vista_Living'] ="Sitting room view";
+$LANG['Vista_cocina'] ="Kitchen view";
+$LANG['Vista_cocina10'] ="Kitchen / Sitting Room";
+
+$LANG['Living'] ="Sitting Room";
+$LANG['Dormitorio_Principal'] ="Double Bedroom";
+$LANG['Habitación_doble'] ="Single room for two people";
+$LANG['Hidromasaje'] ="Bath with hydromassage";
+$LANG['Hidromasaje_Sanitarios'] ="Bath with hydromassage";
+
+$LANG['Recepción'] ="Reception and tourist information office.";
+$LANG['Sala_Juegos'] ="Ping Pong and pool tables";
+
+
+/* Galeria Club House */
+$LANG['club_House_patagonia'] ="THE CLUB HOUSE OF PATAGONIA CAMELOT";
+
+$LANG['Oficina_recepcion'] ="Reception and tourist information office.";
+$LANG['Juegos_infantiles'] ="Chidren´s games";
+$LANG['Mesa_Ping_Pong'] ="Ping Pong table";
+$LANG['Metegol'] ="Foosball table";
+
+$LANG['Mesa_Pool'] ="Pool table";
+$LANG['Video'] ="Video player";
+$LANG['Juegos_mesa'] ="Board Games";
+$LANG['Sala_estar_vista_lago'] ="Sitting room with fireplace overlooking the lake";
+
+/* Galeria entorno */
+
+$LANG['Gallery_entorno_titulo'] ="PATAGONIA CAMELOT CABINS EXTERIOR";
+$LANG['Gallery_entorno_descripcion1'] ="All the rooms overlock the Nahuel Huapi Lake, Mountains and forest. <br> Children´s games in the park.";
+$LANG['Gallery_entorno_descripcion2'] ="Children´s games in the park.";
+
+
+$LANG['Patagonia_Camelot'] ="Patagonia Camelot";
+$LANG['Patagonia_Camelot_landscape'] ="Patagonia Camelot - Landscape";
+$LANG['Piscina_climatizada_externa'] ="Patagonia Camelot - Landscape - Climatized Pool";
+$LANG['Patio_juegos_exterior'] ="Chidren´s Games in the park";
+$LANG['Patagonia_arturo'] ="Arturo´s Cabin";
+$LANG['Patagonia_Ginebra'] ="Ginebra Cabin";
+$LANG['Invierno_Vista_externa_Cabañas'] ="Winter / Patagonia Camelot - Landscape";
 
 
 /*
@@ -185,13 +227,12 @@ GALLERY - CABINS
 
     - THE CLUB HOUSE OF PATAGONIA CAMELOT:
 
+    Recepción - CLUB HOUSE
+    Sala de Juegos - CLUB HOUSE
+
+
     Reception and tourist information office.
-    Chidren´s gamesPing Pong table
-    Foosball table
-    Pool table
-    Video player
-    Board Games
-    Sitting room with fireplace overlooking the lake.
+    Ping Pong and pool tables
 
 
 

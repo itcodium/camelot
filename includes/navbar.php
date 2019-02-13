@@ -22,7 +22,7 @@
           <li class="nav-item">
             <a class="nav-link" href="<?php echo $host ?>servicios.php"><?php echo $LANG['menu_servicios'] ?></a>
           </li>
-          <li class="nav-item dropdown active">
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" id="dropdown05" data-toggle="dropdown" aria-haspopup="true"
                aria-expanded="false"><?php echo $LANG['menu_galleries'] ?></a>
             <div class="dropdown-menu" aria-labelledby="dropdown05">

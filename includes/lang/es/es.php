@@ -68,7 +68,65 @@ $LANG['Servicios_ayudantes']="Servicios de ayudantes de paso al lago. (Pago por 
 
 $LANG['ubicacion_descripcion']="Villa La Angostura es una pequeña villa de montaña que se encuentra al sur de la pcia. de neuquen. a 70 km del aeropuerto de bariloche y a 60 km de la aduana de chile. los lagos nahuel huapi y correntoso, vierten sus aguas en esta zona, haciendo de sus playas un lugar de recreación por excelencia. se encuentra a 1.614 km de la ciudad de buenos aires. patagonia camelot se encuentra a solo 5 km. del centro de villa la angostura.";
 $LANG['ubicacion_destancias']="DISTANCIAS DESDE CIUDADES HASTA PATAGONIA CAMELOT";
-$LANG['reservas_titulo']="HACE TU RESERVA Y DISFRUTA DEL MEJOR LUGAR EN VILLA LA ANGOSTURA."
+$LANG['reservas_titulo']="HACE TU RESERVA Y DISFRUTA DEL MEJOR LUGAR EN VILLA LA ANGOSTURA.";
+
+
+
+/* Galleries Cabins */
+$LANG['Vista_Living'] ="Vista del Living";
+$LANG['Vista_cocina'] ="Vista cocina";
+$LANG['Vista_cocina10'] ="Vista cocina / Living";
+$LANG['Living'] ="Living";
+$LANG['Dormitorio_Principal'] ="Dormitorio Principal";
+$LANG['Habitación_doble'] ="Habitación doble";
+$LANG['Hidromasaje'] ="Hidromasaje";
+$LANG['Hidromasaje_Sanitarios'] ="Hidromasaje - Sanitarios";
+
+
+$LANG['Recepción'] ="Recepción - CLUB HOUSE";
+$LANG['Sala_Juegos'] ="Sala de Juegos - CLUB HOUSE";
+
+/* Galleries Club House */
+$LANG['club_House_patagonia'] ="CLUB HOUSE DE PATAGONIA CAMELOT";
+
+$LANG['Oficina_recepcion'] ="Oficina de recepción e información turística.";
+$LANG['Juegos_infantiles'] ="Juegos infantiles";
+$LANG['Mesa_Ping_Pong'] ="Mesa de Ping Pong.";
+$LANG['Metegol'] ="Metegol";
+
+$LANG['Mesa_Pool'] ="Mesa de Pool";
+$LANG['Video'] ="Video";
+$LANG['Juegos_mesa'] ="Juegos de mesa";
+$LANG['Sala_estar_vista_lago'] ="Sala de estar con vista al lago.";
+
+
+
+/* Galeria entorno */
+$LANG['Gallery_entorno_titulo'] ="EL ENTORNO QUE RODEA A PATAGONIA CAMELOT ES IMPONENTE.";
+$LANG['Gallery_entorno_descripcion1'] ="Además del imponente paisaje PATAGONIA CAMELOT cuenta con cálidos y confortables ambientes, todos con vista al lago, bosques y montañas.";
+$LANG['Gallery_entorno_descripcion2'] ="El complejo cuenta con un hermoso parque de juegos al aire libre para disfrutar a pleno de tu estadía";
+
+$LANG['Patagonia_Camelot'] ="Patagonia Camelot";
+$LANG['Patagonia_Camelot_landscape'] ="Vista externa Cabañas Camelot";
+$LANG['Piscina_climatizada_externa'] ="Piscina climatizada externa.";
+$LANG['Patio_juegos_exterior'] ="Patio de juegos exterior";
+$LANG['Patagonia_arturo'] ="Vista externa Cabaña Arturo";
+$LANG['Patagonia_Ginebra'] ="Vista externa Cabaña Ginebra";
+$LANG['Invierno_Vista_externa_Cabañas'] ="Invierno / Vista externa Cabañas";
+
+
+
+
+$LANG[''] ="";
+
+
+
+
+
+
+
+
+
 
 
 

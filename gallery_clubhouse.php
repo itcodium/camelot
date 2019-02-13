@@ -22,7 +22,7 @@
   <!-- Page Content -->
   <section class="py-5">
     <div class="container mt-4">
-      <h1>CLUB HOUSE DE PATAGONIA CAMELOT:</h1>
+      <h1><?php echo $LANG['club_House_patagonia'] ?>:</h1>
     </div>
     <br>
 
@@ -30,17 +30,16 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-sm-6">
-          - Oficina de recepción e información turística.<br>
-          - Juegos infantiles<br>
-          - Mesa de Ping Pong.<br>
-          - Metegol<br>
-
+          - <?php echo $LANG['Oficina_recepcion'] ?>.<br>
+          - <?php echo $LANG['Juegos_infantiles'] ?><br>
+          - <?php echo $LANG['Mesa_Ping_Pong'] ?>.<br>
+          - <?php echo $LANG['Metegol'] ?><br>
         </div>
         <div class="col-lg-6 col-sm-6 ">
-          - Mesa de Pool<br>
-          - Video<br>
-          - Juegos de mesa<br>
-          - Sala de estar con vista al lago.<br>
+          - <?php echo $LANG['Mesa_Pool'] ?>.<br>
+          - <?php echo $LANG['Video'] ?><br>
+          - <?php echo $LANG['Juegos_mesa'] ?>.<br>
+          - <?php echo $LANG['Sala_estar_vista_lago'] ?><br>
         </div>
 
         <div class="container mt-5">
@@ -51,7 +50,7 @@
                 <img class="img-fluid img-thumbnail" src="./images/galleries/clubhouse/01.club house.jpg" itemprop="thumbnail"
                      alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Club House 1</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Recepción'] ?></figcaption>
             </figure>
 
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -59,7 +58,7 @@
                 <img class="img-fluid img-thumbnail" src="./images/galleries/clubhouse/02.club house.jpg" itemprop="thumbnail"
                      alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Club House 2</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Sala_Juegos'] ?></figcaption>
             </figure>
 
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -67,14 +66,14 @@
                 <img class="img-fluid img-thumbnail" src="./images/galleries/clubhouse/03.club house.jpg" itemprop="thumbnail"
                      alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Club House 3</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Sala_Juegos'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
               <a href="./images/galleries/clubhouse/04.club house.jpg" itemprop="contentUrl" data-size="964x1024">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/clubhouse/04.club house.jpg" itemprop="thumbnail"
                      alt="Image description" />
               </a>
-              <figcaption itemprop="caption description">Club House 4</figcaption>
+              <figcaption itemprop="caption description"><?php echo $LANG['Sala_Juegos'] ?></figcaption>
             </figure>
 
 
