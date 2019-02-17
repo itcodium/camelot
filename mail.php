@@ -30,7 +30,7 @@ if ($message === ''){
   exit();
 }
 $content="From: $name \nEmail: $email \nMessage: $message";
-$recipient = "youremail@here.com";
+$recipient = "info@ikanova.online";
 $mailheader = "From: $email \r\n";
 
 
