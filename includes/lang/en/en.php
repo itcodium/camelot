@@ -78,6 +78,12 @@ $LANG['reservas_titulo']="MAKE YOUR RESERVATION TO ENJOY THE BEST STAY IN VILLA 
 
 /* Galeria  Cabañas */
 
+$LANG['cabañas_gallery_titulo'] ="PATAGONIA CAMELOT OFFER TO YOU THE MOST COMPLETE SERVICES";
+$LANG['cabañas_gallery_pb'] ="GROUND FLOOR";
+$LANG['cabañas_gallery_pb_desc'] ="Double bedroom / Single room for two people / Bath with hydromassage / Ample Closets.";
+$LANG['cabañas_gallery_pa'] ="FIRST FLOOR";
+$LANG['cabañas_gallery_pa_desc'] ="Kitchen / Dinnin Room, sitting room with LCD TV and DVD player / Fireplace / Toilet with shower / Balcony with individual grill, table and chairs.";
+
 
 $LANG['Vista_Living'] ="Sitting room view";
 $LANG['Vista_cocina'] ="Kitchen view";
@@ -120,155 +126,23 @@ $LANG['Patio_juegos_exterior'] ="Chidren´s Games in the park";
 $LANG['Patagonia_arturo'] ="Arturo´s Cabin";
 $LANG['Patagonia_Ginebra'] ="Ginebra Cabin";
 $LANG['Invierno_Vista_externa_Cabañas'] ="Winter / Patagonia Camelot - Landscape";
+$LANG['brick_BBQ'] ="Brick BBQ with grill and chimney";
 
 
-/*
-WELCOME TO PATAGONIA CAMELOT
-In this amazing place, just 5 km away from Villa La Agostura Center.
-We offer you four comfortable cabins and a Club House surrounded by forest and mountains, with an incredible view to Nahuel Huapi Lake.
-You will be able to rest in typical mountain cabins, made of stone and wood. Will enjoy a park with original games for children and will be surprised to fina a Club House that has captured the atmosphere of those times.
-
-IN ANY SEASON, THE BEST PLACE IN VILLA LA ANGOSTURA
-
-PATAGONIA CAMELOT - CABINS - VILLA LA ANGOSTURA - ARGENTINA
-www.patatoniacamelot.com / info@patagoniacamelot.com
-INFORMATION AND RESERVATIONS: (+5411)  4921-5900
-
-*/
+/* Contacto */
 
 
+$LANG['contact_nombre'] ="Your name";
+$LANG['contact_email'] ="Your email";
+$LANG['contact_asunto'] ="Subject";
+$LANG['contact_mensaje'] ="Your message";
+$LANG['contact_enviar'] ="Send";
 
-/*  - SERVICES PAGE -
+$LANG['contact_nombre_no_puede_ser_vacio'] ="Name cannot be empty";
+$LANG['contact_email_no_puede_ser_vacio'] ="Email cannot be empty";
+$LANG['contact_email_no_valido'] ="Email format invalid";
+$LANG['contact_asunto_no_puede_ser_vacio'] ="Subject cannot be empty.";
+$LANG['contact_mensaje_no_puede_ser_vacio'] ="Message cannot be empty.";
+$LANG['contact_mensaje_enviando'] ="Sending...";
 
-
-MAID SERVICE AND BREACKFAST
-SATELLITE TV.
-DVD PLAYER
-RADIO AND CD PLAYER
-MICROWAVE OVEN.
-REFRIGERATOR W/FREZZER
-
-INDIVIDUAL DIGITAL SAFE - DEPOSIT BOX
-SOMMIER BED
-BATH AND BED COLTHES
-COMPLETE SET OF DISHES AND KITCHEN UTENSILS
-INDIVIDUAL GRILL
-SMOKE EXTRACTOR
-
-EXTERNAL ACCLIMATIXED POOL
-Wi Fi
-BAR SERVICE
-BABY SITTER
-BOAT RENT
-TRANSPORTATION SERVICE TO THE LAKE
-
-
-@-  PATAGONIA CAMELOT OFFER TO YOU THE BEST AND MOST COMPLETE SERVICES.
-Four full equiped cabins, to insure you the best stay on your vacations.  We offer aditional services as: Bar Service / Maid  service and breackfast/ Baby Sitter/ Boat Rental / Fishing guide with fly /  Our resort has
-transportation service to the lake, and much more...
-
-
-
-- LOCATION PAGE -
-
-PATAGONIA CAMELOT - RUTA 231 - KM. 65,5 - VILLA LA ANGOSTURA / NEUQUEN / ARGENTINA.
-VILLA LA ANGOSTURA, IS A SMALL MOUNTAING VILLAGE IN SOUTH OR NEUQUEN PROVINCE, ONLY 70 KM FROM BARILOCHE AIRPORT
-AND 60 KM AWAY FROM THE FRONTIER WITH CHILE. NAHUEL HUAPI AND CORRENTOSO LAKES POUR THEIR WATERS OVER THIS AREA
-MAKING ITS BEACHES AN EXCELLENT RECREATION PLACE.
-
-
-- INFO & RESERVATIONS -
-MAKE YOUR RESERVATION TO ENJOY THE BEST STAY IN VILLA LA ANGOSTURA
-INFORMATION AND RESERVATIONS:
-(+5411) 4921-5900
-
-
-GALLERY - CABINS
-
-    PATAGONIA CAMELOT OFFER TO YOU THE MOST COMPLETE SERVICES
-
-    GROUND FLOOR:
-
-    Double bedroom.
-    Single room for two people.
-    Bath with hydromassage.
-    Ample Closets.
-
-
-    FIRST FLOOR:
-
-    Kitchen, Dinnin Room, sitting room
-    with LCD TV and DVD player.
-    Fireplace.
-    Toilet with shower. Balcony with
-    individual grill, table and chairs.
-
-    FOTOS CABINS
-
-    Sitting room view
-    Sitting room view
-    Sitting room view and landscape
-    Kitchen dinning room
-    Sitting room view
-    Sitting room view
-    Sitting room view
-    Kitchen view
-    Kitchen view
-    Kitchen / Sitting Room
-    Double Bedroom
-    Double Bedroom
-    Single room for two people
-    Single room for two people
-    Toilet
-    Bath with hydromassage
-    Bath with hydromassage
-    Bath with hydromassage
-
-
-    - THE CLUB HOUSE OF PATAGONIA CAMELOT:
-
-    Recepción - CLUB HOUSE
-    Sala de Juegos - CLUB HOUSE
-
-
-    Reception and tourist information office.
-    Ping Pong and pool tables
-
-
-
-
-
-    FOTOS
-    Reception, tourist and information Office.
-    Ping Pong and pool tables
-    Ping Pong and pool tables
-    Ping Pong and pool tables and sitting room.
-
-    - PATAGONIA CAMELOT CABINS EXTERIOR:
-    All the rooms overlock the Nahuel Huapi Lake, Mountains and forest.
-    Children´s games in the park.
-
-    Patagonia Camelot
-    Patagonia Camelot - Landscape
-    Patagonia Camelot - Landscape - Climatized Pool
-    Chidren´s Games in the park
-    Vista externa Cabañas Camelot
-    Patagonia Camelot
-    Arturo´s Cabin
-    Patagonia Camelot
-    Patagonia Camelot
-    Ginebra Cabin
-    Patagonia Camelot - Landscape
-    Patagonia Camelot - Landscape
-    Patagonia Camelot - Landscape
-    Winter / Patagonia Camelot - Landscape
-    Winter / Patagonia Camelot - Landscape
-    Winter / Patagonia Camelot - Landscape
-    Winter / Patagonia Camelot - Landscape
-    Winter / Patagonia Camelot - Landscape
-    Winter / Patagonia Camelot - Landscape
-    Winter / Patagonia Camelot - Landscape
-
-
-*/
 ?>

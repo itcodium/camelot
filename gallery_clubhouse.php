@@ -46,7 +46,7 @@
 
           <div class="row text-center text-lg-left my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-              <a href="./images/galleries/clubhouse/01.club house.jpg" itemprop="contentUrl" data-size="1024x1024">
+              <a href="./images/galleries/clubhouse/01.club house.jpg" itemprop="contentUrl" data-size="960x720">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/clubhouse/01.club house.jpg" itemprop="thumbnail"
                      alt="Image description" />
               </a>
@@ -54,7 +54,7 @@
             </figure>
 
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-              <a href="./images/galleries/clubhouse/02.club house.jpg" itemprop="contentUrl" data-size="964x1024">
+              <a href="./images/galleries/clubhouse/02.club house.jpg" itemprop="contentUrl" data-size="960x720">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/clubhouse/02.club house.jpg" itemprop="thumbnail"
                      alt="Image description" />
               </a>
@@ -62,14 +62,14 @@
             </figure>
 
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-              <a href="./images/galleries/clubhouse/03.club house.jpg" itemprop="contentUrl" data-size="964x1024">
+              <a href="./images/galleries/clubhouse/03.club house.jpg" itemprop="contentUrl" data-size="960x720">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/clubhouse/03.club house.jpg" itemprop="thumbnail"
                      alt="Image description" />
               </a>
               <figcaption itemprop="caption description"><?php echo $LANG['Sala_Juegos'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-              <a href="./images/galleries/clubhouse/04.club house.jpg" itemprop="contentUrl" data-size="964x1024">
+              <a href="./images/galleries/clubhouse/04.club house.jpg" itemprop="contentUrl" data-size="960x720">
                 <img class="img-fluid img-thumbnail" src="./images/galleries/clubhouse/04.club house.jpg" itemprop="thumbnail"
                      alt="Image description" />
               </a>

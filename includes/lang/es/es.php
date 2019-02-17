@@ -22,7 +22,7 @@
   /* Slide Show */
 
   $LANG['cabañas']="Cabañas";
-  $LANG['cabañas_desc']= 'Patagonia camelot te ofrece todas las comodidades.';
+  $LANG['cabañas_desc']= 'PATAGONIA CAMELOT TE OFRECE TODAS LAS COMODIDADES';
   $LANG['cabañas_desc_alter']= 'EN UN LUGAR SOÑADO, UN SOLO A 6 KM DE VILLA LA ANGOSTURA';
   $LANG['club_house']="Club House";
   $LANG['club_house_desc']="Juegos infantiles - Mesa de Ping Pong - Metegol";
@@ -37,6 +37,7 @@ $LANG['home_welcome_desc_3']="Con capacidad para 2, 4 y 6 personas. Hace tu rese
 
 $LANG['home_vla_best_place']="EN CUALQUIER ESTACION, UN LUGAR INCREIBLE EN LO MEJOR DE VILLA LA ANGOSTURA";
 /* Services */
+$LANG['Servicios_titulo']="PATAGONIA CAMELOT TE OFRECE LOS MEJORES Y MAS COMPLETOS SERVICIOS.";
 
 $LANG['SERVICIO_DE_MUCAMA_Y_DESAYUNO']="SERVICIO DE MUCAMA Y DESAYUNO";
 $LANG['TV_SATELITAL']="TV SATELITAL";
@@ -73,6 +74,14 @@ $LANG['reservas_titulo']="HACE TU RESERVA Y DISFRUTA DEL MEJOR LUGAR EN VILLA LA
 
 
 /* Galleries Cabins */
+
+
+$LANG['cabañas_gallery_titulo'] ="PATAGONIA CAMELOT OFFER TO YOU THE MOST COMPLETE SERVICES";
+$LANG['cabañas_gallery_pb'] ="PLANTA BAJA";
+$LANG['cabañas_gallery_pb_desc'] ="Habitación matrimonial con sommier / Habitación para dos personas / Baño con hidromasaje y ducha / Amplios placares.";
+$LANG['cabañas_gallery_pa'] ="PLANTA ALTA";
+$LANG['cabañas_gallery_pa_desc'] ="Cocina comedor / Sala de estar con LCD y DVD. / Hogar a leña / Toilette con ducha / Terraza y parrilla individual con la mejor vista.";
+
 $LANG['Vista_Living'] ="Vista del Living";
 $LANG['Vista_cocina'] ="Vista cocina";
 $LANG['Vista_cocina10'] ="Vista cocina / Living";
@@ -113,11 +122,22 @@ $LANG['Patio_juegos_exterior'] ="Patio de juegos exterior";
 $LANG['Patagonia_arturo'] ="Vista externa Cabaña Arturo";
 $LANG['Patagonia_Ginebra'] ="Vista externa Cabaña Ginebra";
 $LANG['Invierno_Vista_externa_Cabañas'] ="Invierno / Vista externa Cabañas";
+$LANG['brick_BBQ'] ="Parrilla exterior";
 
 
+$LANG['contact_nombre'] ="Nombre";
+$LANG['contact_email'] ="Email";
+$LANG['contact_asunto'] ="Asunto";
+$LANG['contact_mensaje'] ="Mensaje";
+$LANG['contact_enviar'] ="Enviar";
 
+$LANG['contact_nombre_no_puede_ser_vacio'] ="Debe ingresar un nombre.";
+$LANG['contact_email_no_puede_ser_vacio'] ="Debe ingresar una direccion de email.";
+$LANG['contact_email_no_valido'] ="El email ingresado no es valido.";
+$LANG['contact_asunto_no_puede_ser_vacio'] ="Debe ingresar un asunto.";
+$LANG['contact_mensaje_no_puede_ser_vacio'] ="Debe ingresar un mensaje.";
+$LANG['contact_mensaje_enviando'] ="Enviando.";
 
-$LANG[''] ="";
 
 
 
