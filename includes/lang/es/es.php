@@ -39,7 +39,7 @@ $LANG['home_vla_best_place']="EN CUALQUIER ESTACION, UN LUGAR INCREIBLE EN LO ME
 /* Services */
 $LANG['Servicios_titulo']="PATAGONIA CAMELOT TE OFRECE LOS MEJORES Y MAS COMPLETOS SERVICIOS.";
 
-$LANG['SERVICIO_DE_MUCAMA_Y_DESAYUNO']="SERVICIO DE MUCAMA Y DESAYUNO";
+$LANG['SERVICIO_DE_MUCAMA']="SERVICIO DE MUCAMA";
 $LANG['TV_SATELITAL']="TV SATELITAL";
 $LANG['EQUIPO_DE_DVD']="EQUIPO DE DVD";
 $LANG['EQUIPO_CON_RADIO_Y_CD']="EQUIPO CON RADIO Y CD";
@@ -54,7 +54,12 @@ $LANG['EXTRACTOR_DE_HUMO']="EXTRACTOR DE HUMO";
 $LANG['PISCINA_CLIMATIZADA_EXTERIOR']="PISCINA CLIMATIZADA EXTERIOR";
 $LANG['Wi_Fi']="Wi Fi";
 $LANG['SERVICIO_DE_BAR']="SERVICIO DE BAR";
-$LANG['BABY_SITTER']="BABY SITTER";
+$LANG['BABY_SITTER']="SERVICIO DE NIÑERA";
+$LANG['BREAKFAST']="PUEDES CONTRATAR SERVICIO DE DESAYUNO";
+$LANG['GARAGE']="COCHERA";
+
+
+
 $LANG['ALQUILER_DE_LANCHA_Y_GUIA_DE_PESCA_CON_MOSCA']="ALQUILER DE LANCHA Y GUIA DE PESCA CON MOSCA";
 $LANG['SERVICIOS_DE_AYUDANTES_PARA_AMARRADERO']="SERVICIOS DE AYUDANTES PARA AMARRADERO";
 
@@ -65,7 +70,7 @@ $LANG['Baby_Sitter']="Baby Sitter";
 $LANG['Alquiler_lanchas']="Alquiler de lanchas";
 $LANG['Guía_pesca_mosca']="Guía de pesca con mosca";
 $LANG['Servicios_ayudantes']="Servicios de ayudantes de paso al lago. (Pago por amarra y/o subida y bajada de lancha.)";
-
+$LANG['break_fast_service']="Servicio de desayuno.";
 
 $LANG['ubicacion_descripcion']="Villa La Angostura es una pequeña villa de montaña que se encuentra al sur de la pcia. de neuquen. a 70 km del aeropuerto de bariloche y a 60 km de la aduana de chile. los lagos nahuel huapi y correntoso, vierten sus aguas en esta zona, haciendo de sus playas un lugar de recreación por excelencia. se encuentra a 1.614 km de la ciudad de buenos aires. patagonia camelot se encuentra a solo 5 km. del centro de villa la angostura.";
 $LANG['ubicacion_destancias']="DISTANCIAS DESDE CIUDADES HASTA PATAGONIA CAMELOT";

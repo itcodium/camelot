@@ -1,7 +1,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="<?php echo $host ?>index.php">
         <img height="70px" src="<?php echo $host ?>/images/logo_marca_agua.png">
         <img hidden src="./images/logo_marca_agua.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
@@ -10,7 +10,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto pl-3">
-          <li class="nav-item">
+          <li hidden class="nav-item">
             <a class="nav-link <?php if (basename($_SERVER['PHP_SELF'])=='index.php') echo 'active'  ?>" href="<?php echo $host ?>index.php"><?php echo $LANG['menu_home'] ?>
               <span class="sr-only">(current)</span>
             </a>

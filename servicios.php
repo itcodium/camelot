@@ -33,11 +33,12 @@
             <li class="list-group-item"><img src="./images/icons/icons8-towel-60.png"><?php echo	$LANG['ROPA_DE_CAMA_Y_BAÑO']?></li>
             <li class="list-group-item"><img src="./images/icons/icons8-swimming-pool-60.png"><?php echo	$LANG['PISCINA_CLIMATIZADA_EXTERIOR']?></li>
             <li class="list-group-item">
-              <img src="./images/icons/icons8-bar-60.png">
-              <img src="./images/icons/icons8-cup-60.png"><?php echo	$LANG['SERVICIO_DE_BAR']?></li>
+              <img src="./images/icons/icons8-bar-60.png"><?php echo	$LANG['SERVICIO_DE_BAR']?></li>
             <li class="list-group-item"><img src="./images/icons/icons8-safe-60.png"><?php echo	$LANG['CAJA_DE_SEGURIDAD']?></li>
             <li class="list-group-item"><img src="./images/icons/icons8-restaurant-60.png"><?php echo	$LANG['COMPLETO_EQUIPO_DE_VAJILLA_Y_COCINA']?></li>
             <li class="list-group-item"><img src="./images/icons/icons8-air-quality-60.png"><?php echo	$LANG['EXTRACTOR_DE_HUMO']?></li>
+            <li class="list-group-item"><img src="./images/icons/icons8-cup-60.png"><?php echo	$LANG['BREAKFAST']?></li>
+
           </ul>
         </div>
         <div class="col-lg-6 col-sm-6 portfolio-item">
@@ -52,7 +53,10 @@
             <li class="list-group-item"><img src="./images/icons/icons8-crossfit-60.png"><?php echo	$LANG['SERVICIOS_DE_AYUDANTES_PARA_AMARRADERO']?></li>
             <li class="list-group-item"><img src="./images/icons/icons8-breastfeeding-60.png"><?php echo	$LANG['BABY_SITTER']?></li>
             <li class="list-group-item"><img src="./images/icons/icons8-bed-60.png"><?php echo	$LANG['CAMA_CON_SOMMIER']?></li>
-            <li class="list-group-item"><img src="./images/icons/housekeeper-female.png"><?php echo	$LANG['SERVICIO_DE_MUCAMA_Y_DESAYUNO']?></li>
+            <li class="list-group-item"><img src="./images/icons/housekeeper-female.png"><?php echo	$LANG['SERVICIO_DE_MUCAMA']?></li>
+            <li class="list-group-item"><img src="./images/icons/icons8-garage-60.png"><?php echo	$LANG['GARAGE']?></li>
+
+
           </ul>
         </div>
       </div>
@@ -64,6 +68,7 @@
         <div class="col-lg-6 col-sm-6 portfolio-item">
           <ul class="list-group">
             <li class="list-group-item"><?php echo	$LANG['Servicios_bar']?></li>
+            <li class="list-group-item"><?php echo	$LANG['break_fast_service']?></li>
             <li class="list-group-item"><?php echo	$LANG['Baby_Sitter']?></li>
             <li class="list-group-item"><?php echo	$LANG['Alquiler_lanchas']?></li>
             <li class="list-group-item"><?php echo	$LANG['Guía_pesca_mosca']?></li>
