@@ -9,7 +9,7 @@
         $selected_lan=$_SESSION['lang'] == 'es'? 'es':'en';
       }
     }
-    define("LANG_PATH", $_SERVER['DOCUMENT_ROOT'] . '/includes/lang/'. $selected_lan.'/');
+    define("LANG_PATH", $_SERVER['DOCUMENT_ROOT'] . '/camelot/includes/lang/'. $selected_lan.'/');
     include LANG_PATH . $selected_lan . '.php';
     $_SESSION['lang'] =  $selected_lan;
 ?>

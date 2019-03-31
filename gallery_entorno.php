@@ -46,8 +46,22 @@
               <figcaption itemprop="caption description"><?php echo $LANG['Piscina_climatizada_externa'] ?></figcaption>
             </figure>
             <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-              <a href="./images/galleries/entorno/03.Piscina climatizada externa.jpg" itemprop="contentUrl" data-size="1210x908">
-                <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/03.Piscina climatizada externa.jpg"
+              <a href="./images/galleries/entorno/03b.Piscina climatizada externa.jpg" itemprop="contentUrl" data-size="1210x908">
+                <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/03b.Piscina climatizada externa.jpg"
+                     itemprop="thumbnail" alt="Image description" />
+              </a>
+              <figcaption itemprop="caption description"><?php echo $LANG['Piscina_climatizada_externa'] ?></figcaption>
+            </figure>
+            <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="./images/galleries/entorno/03c.Piscina climatizada externa.jpg" itemprop="contentUrl" data-size="1210x908">
+                <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/03c.Piscina climatizada externa.jpg"
+                     itemprop="thumbnail" alt="Image description" />
+              </a>
+              <figcaption itemprop="caption description"><?php echo $LANG['Piscina_climatizada_externa'] ?></figcaption>
+            </figure>
+            <figure class="col-lg-3 col-md-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="./images/galleries/entorno/03d.Piscina climatizada externa.jpg" itemprop="contentUrl" data-size="1210x908">
+                <img class="img-fluid img-thumbnail" src="./images/galleries/entorno/03d.Piscina climatizada externa.jpg"
                      itemprop="thumbnail" alt="Image description" />
               </a>
               <figcaption itemprop="caption description"><?php echo $LANG['Piscina_climatizada_externa'] ?></figcaption>
